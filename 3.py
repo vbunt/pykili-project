@@ -1,4 +1,4 @@
-import pandas # here we make a table more consistent
+import pandas # here we make the table more consistent
 
 
 def isNaN(num):
@@ -6,7 +6,7 @@ def isNaN(num):
 
 
 def get_table():
-    table = pandas.read_csv('new_kind_of_table.csv')
+    table = pandas.read_csv('first_table.csv')
     return table
 
 
@@ -62,11 +62,11 @@ def main():
     table = school(table)
     table = highest_degree(table)
     table = hse_spec(table)
-    table.to_csv('/home/valeria/PycharmProjects/freshman_pr/second_kind_of_table.csv')
+    table.to_csv('second_table.csv')
 
 
 if __name__ == '__main__':
     main()
 
 # after that I manually added 'hse_fac' column which contains HSE faculties people have graduated from
-# this is called third_kind_of_table.csv
+# this is called third_table.csv
