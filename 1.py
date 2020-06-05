@@ -61,7 +61,7 @@ def get_table(letter_link):
         writer.writeheader()
         for link in people_links:
             personal = get_personal(link)
-            print(personal)
+#             print(personal)
             writer.writerow({'name': personal[0], 'education': personal[1], 'place': personal[2], 'started_worked': personal[3]})
 
 
