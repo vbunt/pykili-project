@@ -8,7 +8,7 @@ def isNaN(num):
 
 
 def reading():
-    table = pandas.read_csv('third_table.csv')
+    table = pandas.read_csv('final_table.csv')
     return table
 
 
