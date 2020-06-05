@@ -69,4 +69,4 @@ if __name__ == '__main__':
     main()
 
 # after that I manually added 'hse_fac' column which contains HSE faculties people have graduated from
-# this is called third_table.csv
+# this is called final_table.csv
