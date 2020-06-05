@@ -8,12 +8,12 @@ def isNaN(num):
 
 
 def reading():
-    table = pandas.read_csv('/home/valeria/PycharmProjects/freshman_pr/third_kind_of_table.csv')
+    table = pandas.read_csv('third_table.csv')
     return table
 
 
 def reading_pl():
-    pl_table = pandas.read_csv('/home/valeria/PycharmProjects/freshman_pr/new_kind_of_places_table.csv')
+    pl_table = pandas.read_csv('places_table.csv')
     return pl_table
 
 
