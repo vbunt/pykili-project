@@ -55,7 +55,7 @@ def get_personal(people_link):
 def get_table(letter_link):
     people_links = get_people_links(letter_link)
 
-    with open('big_table1.csv', 'a') as csvfile:
+    with open('big_table.csv', 'a') as csvfile:
         fieldnames = ['name', 'education', 'place', 'started_worked']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
