@@ -2,7 +2,7 @@ import pandas, re
 
 
 def get_table():
-    table = pandas.read_csv('big_table1.csv')
+    table = pandas.read_csv('big_table.csv')
     return table
 
 
@@ -167,8 +167,8 @@ def main():
     table = get_started_worked(table)
     table = get_education(table)
     places_table, table = get_places(table)
-    table.to_csv('/home/valeria/PycharmProjects/freshman_pr/new_kind_of_table.csv')
-    places_table.to_csv('/home/valeria/PycharmProjects/freshman_pr/new_kind_of_places_table.csv')
+    table.to_csv('first_table.csv')
+    places_table.to_csv('places_table.csv')
 
 
 if __name__ == '__main__':
